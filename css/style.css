@@ -1,0 +1,254 @@
+body
+{
+margin:0;
+padding:0;
+display:flex;
+justify-content: center;
+align-items: center;
+height:90vh;
+}
+
+.container
+{
+width:250px;
+display:flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+border:none;
+border-radius:10px;
+padding:10px;
+background:url('https://img.freepik.com/premium-photo/black-music-notes-song-melody-flowing-air-dark-background-copy-space-your-text-article-left-concept-music-aesthetic-rhythm-3d-illustration-rendering_34515-906.jpg');
+background-size: contain;
+}
+
+/* heading  start*/
+.heading-box
+{
+width:100%;
+text-align: center;
+border:none;
+margin-bottom:20px;
+border-top-left-radius:10px;
+border-top-right-radius:10px;
+}
+.heading-box .heading
+{
+margin:0;
+font-family: "Dancing Script";
+color:white;
+margin:5px;
+}
+/* heading ends */
+
+/* image start*/
+.image-box
+{
+    width:100%;
+    text-align: center;
+    margin-bottom:20px;
+    border:none;
+    border-radius:10px;
+}
+.image-box .song-image
+{
+width:100%;
+height:100%;
+border-radius:10px;
+border:none;
+}
+/* image end  */
+
+.song-name-box
+{
+    width:100%;
+    text-align: center;
+    border:none;
+    margin-bottom:20px;
+}
+.song-name-box .song-name
+{
+font-family:"Dancing Script";
+color:white;
+font-size:22px;
+}
+
+/* bar-box start  */
+.song-bar-box
+{
+    width:100%;
+    text-align: center;
+    margin-bottom:20px;
+}
+
+
+.song-bar-box .song-bar {
+    -webkit-appearance: none; /* Remove default appearance */
+    appearance: none;
+    width: 90%; /* Set width as needed */
+    height: 4px; /* Set height as needed */
+    background-color: #ddd; /* Set background color */
+    border-radius: 4px; /* Set border radius */
+    outline: none; /* Remove outline */
+  }
+  
+  /* Track styles */
+  .song-bar::-webkit-slider-runnable-track {
+    width: 90%;
+    height: 4px;
+    background-color: #000; /* Set track color */
+    border-radius: 4px;
+  }
+  
+  /* Thumb styles */
+  .song-bar::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Remove default appearance */
+    appearance: none;
+    width: 10px; /* Set thumb width */
+    height: 10px; /* Set thumb height */
+    margin-top:-3px;
+    background-color: #fff; /* Set thumb color */
+    border-radius: 50%; /* Round the thumb */
+    cursor: pointer; /* Show pointer cursor */
+  }
+  
+  /* Handle different browsers */
+  .song-bar::-moz-range-thumb {
+    width: 10px;
+    height: 10px;
+    background-color: #333;
+    margin-top:-3px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  /* Handle different browsers */
+  .song-bar::-ms-thumb {
+    width: 10px;
+    height: 10px;
+    background-color: #333;
+    margin-top:-3px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+/* bar-box end */
+
+/* nothing is changed until here and it looks fine in mobile as well */
+
+
+/* control-panel start */
+.control-panel
+{
+    width:100%;
+    text-align: center;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:20px; 
+}
+
+.control-panel .repeat-box
+{
+margin:5px;
+}
+.control-panel .repeat-box .repeat-btn
+{
+ border-radius:50%;
+ background:transparent;
+ color:white;
+ border:none;
+ cursor:pointer;
+ font-size:16px;
+}
+.control-panel .list-box
+{
+margin:5px;
+}
+.control-panel .list-box .list
+{
+    border-radius:50%;
+ background:transparent;
+ color:white;
+ border:none;
+ cursor:pointer;
+ font-size:16px;
+}
+.control-panel .prev-play-next-box
+{
+    margin:5px;
+}
+.control-panel .prev-play-next-box .control-btns
+{
+
+border-radius:50%;
+background:transparent;
+color:#fff;
+border:none;
+cursor:pointer;
+font-size:30px;
+}
+
+/* control-panel end */
+
+/* everything is working here correctly without making any upperchanges phase - 2 */
+
+/* songs list start */
+.songs-list-box
+{
+    width:100%;
+    height:50px;
+    border:none;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+   overflow-y:auto;
+   
+}
+
+.songs-list-box .songs
+{
+list-style:none;
+margin:0;
+padding:0;
+display: none;
+}
+.songs-list-box .songs>li
+{
+color:white;
+margin:2px;
+}
+
+/* style scroll-bar */
+  /* width */
+  /* width */
+  ::-webkit-scrollbar {
+    width: 4px;
+    /* display:none; */
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    display:none;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+/* songs list end */
+
+
+
+
+
+
+
+
+
